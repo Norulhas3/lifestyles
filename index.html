@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lifestylesbynoor</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <div class="red"> 
+        <div class="icons">
+            <i class="fa-solid fa-user icons1"></i>
+            <i class="fa-solid fa-magnifying-glass icons2"></i>
+            <i class="fa-solid fa-cart-shopping icons3"></i>
+            <i class="fa-solid fa-bars icons4"></i>
+         </div>
+         <div class="logo">
+            <img src="1.png" height="80px" width="100px"  alt="">
+        </div>
+    </div>
+    <div class="btncontainer">
+      <button class="btn">New In</button>
+      <button class="btn">Women</button>
+      <button class="btn">Luxury</button>
+      <button class="btn">Men</button>
+      <button class="btn">Home</button>
+      <button class="btn">Accessories</button>
+      <button class="btn">Summer Sale</button>
+  
+    </div>
+      <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="https://www.shutterstock.com/image-photo/female-stylist-near-rack-modern-260nw-2135889599.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="2.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="4.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="5.webp" alt=""></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+      <hr>
+         <h2>New Unstiched</h2>
+         <div class="new-arrival">
+            <div class="firstcard">
+                <img class="firstbox" src="6.webp" alt="">
+                <p class="firstline">2 Piece - Digital Printed Embroidered Suit - 42402075</p>
+                <hr>
+                <p class="price"> Rs.5,990.00</p>
+                <button class="btn1">Add To Cart</button>
+            </div> 
+            <div class="arrivals">
+              <div class="secondcard"> 
+                   <img class="secondbox" src="7.webp" alt="">
+                <p class="secondline">2 Piece - Digital Printed Embroidered Suit - 42402076</p>
+                <hr>
+                <p class="price"> Rs.5,990.00</p>
+                <button class="btn2">Add To Cart</button>
+            </div>
+            </div>
+            <div class="arrivals1">
+              <div class="thirdcard"> 
+                   <img class="thirdbox" src="8.webp" alt="">
+                <p class="thirdline">3 Piece - Digital Printed Jacquard Embroidered Suit - 42402091</p>
+                <hr>
+                <p class="price"> Rs.9,990.00</p>
+                <button class="btn3">Add To Cart</button>
+            </div>
+         </div>
+         <div class="arrivals2">
+          <div class="forthcard"> 
+               <img class="forthbox" src="9.webp" alt="">
+            <p class="forthline">3 Piece - Digital Printed Jacquard Embroidered Suit - 42402092</p>
+            <hr>
+            <p class="price"> Rs.9,990.00</p>
+            <button class="btn4">Add To Cart</button>
+        </div>
+         <hr>
+             <h2 class="bret">Luxury</h2>
+             <div class="new-arrival2">
+              <div class="fifthcard">
+                <img class="fifthbox" src="10.webp" alt="">
+                <p class="fifthline">3 Piece - Embroidered Suit - KFE24-22</p>
+                <hr>
+                <p class="price">Rs. 13,240.00</p>
+                <button class="btn5">Add To Cart</button>
+              </div>
+             </div>
+             <div class="arrivals3">
+              <div class="sixthcard"> 
+                   <img class="sixthbox" src="11.webp" alt="">
+                <p class="sixthline">2 Piece - Printed Suit - KPE24-13</p>
+                <hr>
+                <p class="price">Rs. 11,800.00</p>
+                <button class="btn6">Add To Cart</button>
+             </div>
+             <div class="arrivals4">
+              <div class="sevencard"> 
+                   <img class="sevenbox" src="12.webp" alt="">
+                <p class="sevenline">3 Piece - Embroidered Suit - 42418049</p>
+                <hr>
+                <p class="price">Rs. 12,220.00</p>
+                <button class="btn7">Add To Cart</button>
+             </div>
+             <div class="arrivals5">
+              <div class="eightcard">
+                <img class="eightbox" src="13.webp" alt="">
+                <p class="eightline">3 Piece - Embroidered Suit - KFE24-90</p>
+                <hr>
+                <p class="price">Rs. 18,990.00</p>
+                <button class="btn8">Add To Cart</button>
+              </div>
+             </div>
+            
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      loop:true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+</html>
